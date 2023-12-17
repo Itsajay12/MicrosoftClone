@@ -1,4 +1,7 @@
 import "./App.css";
+import Banner from "./components/Banner/Banner";
+import Business from "./components/Business/Business";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/hero";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
@@ -11,6 +14,9 @@ function App() {
       <Body />
       <Hero />
       <Products />
+      <Banner/>
+      <Business/>
+      <Footer/>
     </>
   );
 }
